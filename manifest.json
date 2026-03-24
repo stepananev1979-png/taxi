@@ -1,0 +1,40 @@
+{
+  "name": "TAXI Чулым-Моторс",
+  "short_name": "Чулым-Моторс",
+  "description": "Такси и доставка в городе Чулым. Круглосуточно.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#f7c948",
+  "orientation": "portrait",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["transportation", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Заказать такси",
+      "short_name": "Такси",
+      "description": "Быстрый заказ такси",
+      "url": "./index.html#taxi"
+    },
+    {
+      "name": "Заказать доставку",
+      "short_name": "Доставка",
+      "description": "Быстрый заказ доставки",
+      "url": "./index.html#delivery"
+    }
+  ]
+}
